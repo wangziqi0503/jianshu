@@ -17,12 +17,17 @@
 
 #### redux-thunk
 
-<a href='https://www.jianshu.com/p/b1a039feac26' target=
-'_blank'>redux-thunk</a>  
+<a href="https://www.jianshu.com/p/b1a039feac26" target="_blank">redux-thunk 简书</a>
 
 #### redux-saga
+<a href="https://redux-saga-in-chinese.js.org/docs/api/index.html" target="_blank">redux-sage API教程</a>
+<a href="https://www.jianshu.com/p/6f96bdaaea22" target="_blank">redux-sage 简书</a>
 
 ### combineReducers
+
+主要功能： 将reducer拆分到各个组件中最后再合并  
+
+<a href="https://www.jianshu.com/p/6a041ad8abdb" target="_blank">combineReducers 简书</a>
 
 ### immutable
 
