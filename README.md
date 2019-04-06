@@ -1,12 +1,14 @@
-#React-简书项目知识点记录
+# React-简书项目知识点记录
 
-##ES6语法知识
+## ES6语法知识
 
-1.引入reducer时将其重新命名为headerReducer  
-import { reducer as headerReducer }from '../common/header/store';  
+1.`import { reducer as headerReducer }from '../common/header/store';`    
 
-2.引入b文件中所有属性赋值给a,例如b文件中的c方法，调用时可以写作a.c  
-import * as a from './b';  
+引入reducer时将其重新命名为headerReducer   
+
+2.`import * as a from './b';`   
+
+引入b文件中所有属性赋值给a,例如b文件中的c方法，调用时可以写作a.c  
 
 
 ## redux
@@ -14,6 +16,9 @@ import * as a from './b';
 ### redux 常用中间件
 
 #### redux-thunk
+
+<a href='https://www.jianshu.com/p/b1a039feac26' target=
+'_blank'>redux-thunk</a>  
 
 #### redux-saga
 
