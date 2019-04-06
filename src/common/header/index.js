@@ -1,8 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-// import { dispatch } from 'rxjs/internal/observable/range';
 import { CSSTransition } from 'react-transition-group';
-import { getInputFocus, getInputBlur } from './store/actionCreators';
+import { actionCreators } from './store';
 import { 
     HeaderWrapper,
     Logo,
@@ -51,19 +50,17 @@ const Header = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        focused: state.header.focused
+        focused: state.header.get('focused')
     }
 }
 
 const mapDispatchToProps = (dispatch) =>{
     return {
         handleInputFocus(){
-            const action = getInputFocus();
-            dispatch(action);
+            dispatch(actionCreators.getInputFocus());
         },
         handleInputBlur(){
-            const action = getInputBlur();
-            dispatch(action);
+            dispatch(actionCreators.getInputBlur());
         }
     }
 }

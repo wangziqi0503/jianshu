@@ -1,10 +1,10 @@
-import { NAV_INPUT_FOCUS, NAV_INPUT_BLUR } from './actionTypes';
+import * as actionTypes from './actionTypes';
 
 export const getInputFocus = () =>({
-    type: NAV_INPUT_FOCUS
+    type: actionTypes.NAV_INPUT_FOCUS
 })
 
 export const getInputBlur = () =>({
-    type: NAV_INPUT_BLUR
+    type: actionTypes.NAV_INPUT_BLUR
 })
 
