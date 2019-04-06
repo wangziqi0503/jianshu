@@ -9,8 +9,10 @@ import { reducer as headerReducer }from '../common/header/store';
 import * as a from './b';  
 
 
-##redux
-###redux 常用中间件
+## redux
+
+### redux 常用中间件
+
 #### redux-thunk
 
 #### redux-saga
