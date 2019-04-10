@@ -10,6 +10,12 @@
 
 引入b文件中所有属性赋值给a,例如b文件中的c方法，调用时可以写作a.c  
 
+## React语法
+
+### ref
+
+ref可以用来获取DOM的真实节点  
+
 
 ## redux
 
@@ -30,6 +36,10 @@
 <a href="https://www.jianshu.com/p/6a041ad8abdb" target="_blank">combineReducers 简书</a>
 
 ### immutable
+
+主要功能： 管理redux中的state数据，使其不能被改变，简单化代码处理不需要再拷贝一份state做处理
+
+<a href="https://immutable-js.github.io/immutable-js/" target="_blank">combineReducers 简书</a>
 
 ### REDUX_DEVTOOLS
 
