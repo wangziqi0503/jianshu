@@ -132,6 +132,7 @@ const mapDispatchToProps = (dispatch) =>{
             dispatch(actionCreators.mouseLeave());
         },
         handleChangePage(page, totalPage, spin){
+            //获取spin的transform旋转角度并将非数字（deg）去除
             let originAngle = spin.style.transform.replace(/[^0-9]/ig, '');
             if (originAngle) {
                 originAngle = parseInt(originAngle, 10);
@@ -139,7 +140,7 @@ const mapDispatchToProps = (dispatch) =>{
                 originAngle = 0;
             }
             spin.style.transform = 'rotate('+(originAngle + 360 )+'deg)';
-            // console.log(spin.style.transform)
+
             if (page < totalPage ) {
                 dispatch(actionCreators.changePage(page + 1));
             } else {
