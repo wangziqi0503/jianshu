@@ -88,6 +88,7 @@ export const SearchInfo = styled.div`
     width: 240px;
     padding: 0 20px;
     box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    background: #fff;
 `;
 
 export const SearchInfoTitle = styled.div`
@@ -113,6 +114,7 @@ export const SearchInfoSwitch = styled.span`
 
 export const SearchInfoList = styled.div`
     overflow: hidden;
+    background: #fff;
 `;
 
 export const SearchInfoItem = styled.a`
@@ -155,6 +157,7 @@ export const Button = styled.div`
 export const SearchWrappper = styled.div`
     position: relative;
     float: left;
+    background: #fff;
     .zoom {
         position: absolute;
         right: 5px;
