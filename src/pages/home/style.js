@@ -85,8 +85,30 @@ export const RecommentItem = styled.div`
 `;
 
 
+export const LoadMore = styled.div`
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #a5a5a5;
+    color: #fff;
+    margin: 30px 0;
+    border-radius: 20px;
+    cursor: pointer;
+`;
+
 export const HomeRight = styled.div`
     width: 280px;
     float: right;
+`;
+
+export const BackTop = styled.div`
+    position: fixed;
+    width:60px;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    right:100px;
+    bottom:100px;
 `;
 
